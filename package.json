@@ -1,0 +1,29 @@
+{
+  "name": "hapi-chat2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --ext js,hbs",
+    "lint": "standard",
+    "lint-fix": "standard --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.4",
+    "boom": "^7.3.0",
+    "handlebars": "^4.1.0",
+    "hapi": "^18.1.0",
+    "inert": "^5.1.2",
+    "joi": "^14.3.1",
+    "seneca": "^3.8.3",
+    "vision": "^5.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10",
+    "standard": "^12.0.1"
+  }
+}

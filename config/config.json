@@ -1,0 +1,21 @@
+{
+    "seneca": {
+        "options": {
+            "strict": {
+                "result": false
+            },
+            "log": {
+                "level": "error+"
+            }
+        },
+        "clients": [
+
+            {
+                "host": "localhost",
+                "port": 4002,
+                "protocol": "http",
+                "pin": "role:users"
+            }   
+        ]
+    }
+}
